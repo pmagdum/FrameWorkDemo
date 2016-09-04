@@ -1,0 +1,16 @@
+
+<suite name="DeltaSuite" parallel="tests">
+    <parameter name="rAdd" value="http://10.10.4.79:4444/wd/hub"/>
+  <test name="AutomationTest1">
+      <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="delta.main.DeltaDriver"/>
+    </classes>
+  </test> 
+  <test name="AutomationTest2">
+      <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="delta.main.DeltaDriver"/>
+    </classes>
+  </test> 
+ </suite> 
